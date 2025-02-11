@@ -1,6 +1,6 @@
 h1 a, h2 a {
-    color: #C25100;
-    font-family: 'Lobster';
+    color: #c200a5;
+    font-family: 'Jacquard 12';
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 .page-header {
-    background-color: #C25100;
+    background-color: #C200a5;
     margin-top: 0;
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
@@ -29,7 +29,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Jacquard 12', cursive;
 }
 
 .date {
@@ -60,7 +60,7 @@ h4 {
 
 .post h2 a,
 .post h2 a:visited {
-    color: #27ee9b;
+    color: #b871ff;
 }
 
 .post > .date,
