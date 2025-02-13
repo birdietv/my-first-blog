@@ -6,11 +6,12 @@ h1 a, h2 a {
 body {
     padding-left: 15px;
     background: black;
-    color: lightblue
+    color: lightblue;
+    font-family: 'Quicksand'
 }
 
 .page-header {
-    background-color: #C200a5;
+    background-image: linear-gradient(194deg,#86f194, #c200a5, #e866ff);
     margin-top: 0;
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
@@ -49,7 +50,7 @@ h4 {
 .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 14pt;
+    font-size: 11pt;
     margin-right: 20px;
 }
 
@@ -78,4 +79,13 @@ h4 {
 .btn-secondary:hover {
     color: #FFFFFF;
     background-color: #ff8f3f;
+}
+
+.logoutbtn {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: #069;
+    text-decoration: underline;
+    cursor: pointer;
 }
