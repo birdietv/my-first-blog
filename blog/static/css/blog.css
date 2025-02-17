@@ -1,13 +1,46 @@
 h1 a, h2 a {
     color: #b871ff;
+    font-family: 'Nabla';
+    font-palette: --nabla;
+}
+
+h1 a {
+    color: #b871ff;
+    font-family: 'Nabla';
+    font-palette: --nabla;
+}
+
+h2 a {
+    color: #b871ff;
     font-family: 'Jacquard 12';
 }
+
+
+@font-palette-values --nabla {
+    font-family: Nabla;
+    base-palette: 2;
+}
+
+/* @font-palette-values --nabla {
+    font-family: Nabla;
+    override-colors:
+        0 #0d00ff,
+        1 #aa00af,
+        2 #ff00f1, 
+        3 #ff00f1,
+        4 #1800ff,
+        5 #0803d8,
+        6 #0000c9,
+        7 #0031ff,
+        8 #c600c6,
+        9 #ff9cff;
+} */
 
 body {
     padding-left: 15px;
     background: black;
     color: lightblue;
-    font-family: 'JetBrains Mono'
+    font-family: 'Balsamiq Sans'
 }
 
 .page-header {
@@ -101,3 +134,4 @@ h4 {
 .btn {
     margin: 50px;
 }
+
