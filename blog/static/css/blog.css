@@ -139,3 +139,9 @@ h4 {
     color: white;
     background: yellow;
 }
+
+.stargif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
